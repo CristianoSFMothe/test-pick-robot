@@ -1,0 +1,9 @@
+homePage:
+  title: css=h1 >> text=Test Pick
+  selectFramework: css=[data-testid="select-framework"]
+  selectFrameworkOptions: css=div[role="option"]
+  textAreaDescription: css=#description
+  inputName: css=[name="name"]
+  inputEmail: css=.email[placeholder="Digite seu e-mail"]
+  buttonSubmit: css=button >> text=Enviar
+  messageSuccess: css=p >> text{message}

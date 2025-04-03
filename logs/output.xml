@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.12.3 on linux)" generated="2025-04-03T02:33:18.633738" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="/home/ferreira/Documentos/GitHub/test-pick-robot/tests">
+<suite id="s1-s1" name="HomePage" source="/home/ferreira/Documentos/GitHub/test-pick-robot/tests/HomePage.robot">
+<test id="s1-s1-t1" name="Cenário: 01 - Selecionar e adicionar um framework com sucesso" line="10">
+<kw name="Start Browser" owner="OpenPage" type="SETUP">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-04-03T02:33:19.393137" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/home/ferreira/Documentos/GitHub/test-pick-robot/logs/browser/traces/temp/03df13ab-4f20-4060-9699-6be2add58bcf"}</msg>
+<msg time="2025-04-03T02:33:19.411761" level="INFO">Starting Browser process /home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/index.js using port 57855</msg>
+<msg time="2025-04-03T02:33:19.412428" level="INFO">Node startup parameters: ['node', '/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/index.js', '57855']</msg>
+<msg time="2025-04-03T02:33:20.394789" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/home/ferreira/Documentos/GitHub/test-pick-robot/logs/browser/traces/temp/03df13ab-4f20-4060-9699-6be2add58bcf"}</msg>
+<arg>browser=${BROWSER}</arg>
+<arg>headless=${IS_HEADLESS}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-04-03T02:33:19.388869" elapsed="1.008219"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2025-04-03T02:33:20.405626" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "recordVideo": {
+    "dir": "/home/ferreira/Documentos/GitHub/test-pick-robot/logs/browser/video/videos",
+    "size": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  }
+}</msg>
+<msg time="2025-04-03T02:33:20.448168" level="INFO">Successfully created context. </msg>
+<msg time="2025-04-03T02:33:20.448322" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'recordVideo': {'dir': '/home/ferreira/Documentos/GitHub/test-pick-robot/logs/browser/video/videos', 'size': {'width': 1280, 'height': 720}}, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<arg>recordVideo={"dir": "videos/"}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2025-04-03T02:33:20.398727" elapsed="0.049845"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-04-03T02:33:21.314579" level="INFO">Successfully initialized new page object and opened url: https://testpick.vercel.app/</msg>
+<msg time="2025-04-03T02:33:21.316922" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;video width="1280" height="720" controls&gt;&lt;source src="browser/video/videos/2c75e1d90c89c6261fec860ef25e2bc2.webm" type="video/webm"&gt;&lt;/video&gt;</msg>
+<arg>${BASE_URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-04-03T02:33:20.449093" elapsed="0.868579"/>
+</kw>
+<status status="PASS" start="2025-04-03T02:33:19.384425" elapsed="1.933800"/>
+</kw>
+<kw name="Generate Words" owner="utils">
+<msg time="2025-04-03T02:33:21.322109" level="INFO">${description} = veniam quas a unde rem</msg>
+<var>${description}</var>
+<arg>5</arg>
+<status status="PASS" start="2025-04-03T02:33:21.319966" elapsed="0.002205"/>
+</kw>
+<kw name="Name" owner="FakerLibrary">
+<msg time="2025-04-03T02:33:21.323598" level="INFO">${name} = Cecilia Rocha</msg>
+<var>${name}</var>
+<doc>:example: 'John Doe'</doc>
+<status status="PASS" start="2025-04-03T02:33:21.322614" elapsed="0.001040"/>
+</kw>
+<kw name="Email" owner="FakerLibrary">
+<msg time="2025-04-03T02:33:21.324232" level="INFO">${email} = manuella01@example.org</msg>
+<var>${email}</var>
+<status status="PASS" start="2025-04-03T02:33:21.323888" elapsed="0.000386"/>
+</kw>
+<kw name="Dado que estou na página inicial" owner="HomePage">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-04-03T02:33:21.485469" level="INFO">Waited for Element with selector css=h1 &gt;&gt; text=Test Pick at state visible</msg>
+<arg>${homePage.title}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-04-03T02:33:21.326513" elapsed="0.159509"/>
+</kw>
+<status status="PASS" start="2025-04-03T02:33:21.324794" elapsed="0.161661"/>
+</kw>
+<kw name="E selecione um framework &quot;Cypress&quot;" owner="HomePage" source_name="E selecione um framework ${framework}">
+<kw name="Click" owner="Browser">
+<msg time="2025-04-03T02:33:21.490520" level="INFO">Clicks the element 'css=[data-testid="select-framework"]'.</msg>
+<arg>${homePage.selectFramework}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-04-03T02:33:21.489157" elapsed="0.178385"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-04-03T02:33:21.671871" level="INFO">${frameworkOptions} = css=div[role="option"] &gt;&gt; text="Cypress"</msg>
+<var>${frameworkOptions}</var>
+<arg>${homePage.selectFrameworkOptions} &gt;&gt; text=${framework}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-04-03T02:33:21.669745" elapsed="0.002205"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-04-03T02:33:21.701165" level="INFO">Waited for Element with selector css=div[role="option"] &gt;&gt; text="Cypress" at state visible</msg>
+<arg>${frameworkOptions}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-04-03T02:33:21.672350" elapsed="0.029374"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-04-03T02:33:21.703087" level="INFO">Clicks the element 'css=div[role="option"] &gt;&gt; text="Cypress"'.</msg>
+<arg>${frameworkOptions}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-04-03T02:33:21.702154" elapsed="0.251838"/>
+</kw>
+<status status="PASS" start="2025-04-03T02:33:21.487391" elapsed="0.466938"/>
+</kw>
+<kw name="E preencha o texto de descrição ${description}" owner="HomePage" source_name="E preencha o texto de descrição ${description}">
+<kw name="Click" owner="Browser">
+<msg time="2025-04-03T02:33:21.959850" level="INFO">Clicks the element 'css=#description'.</msg>
+<arg>${homePage.textAreaDescription}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-04-03T02:33:21.957490" elapsed="0.130090"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-04-03T02:33:22.115250" level="INFO">Waited for Element with selector css=#description at state visible</msg>
+<arg>${homePage.textAreaDescription}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-04-03T02:33:22.090099" elapsed="0.027022"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-04-03T02:33:22.122707" level="INFO">Fills the text 'veniam quas a unde rem' in the given field.</msg>
+<arg>${homePage.textAreaDescription}</arg>
+<arg>${description}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-04-03T02:33:22.119321" elapsed="0.068533"/>
+</kw>
+<status status="PASS" start="2025-04-03T02:33:21.955332" elapsed="0.233179"/>
+</kw>
+<kw name="E informe o nome do usuário ${name}" owner="HomePage" source_name="E informe o nome do usuário ${name}">
+<kw name="Click" owner="Browser">
+<msg time="2025-04-03T02:33:22.192948" level="INFO">Clicks the element 'css=.email[placeholder="Digite seu e-mail"]'.</msg>
+<arg>${homePage.inputEmail}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-04-03T02:33:22.190857" elapsed="0.161929"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-04-03T02:33:22.389206" level="INFO">Waited for Element with selector css=[name="name"] at state visible</msg>
+<arg>${homePage.inputName}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-04-03T02:33:22.353798" elapsed="0.036213"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-04-03T02:33:22.393966" level="INFO">Fills the text 'Cecilia Rocha' in the given field.</msg>
+<arg>${homePage.inputName}</arg>
+<arg>${name}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-04-03T02:33:22.390665" elapsed="0.069524"/>
+</kw>
+<status status="PASS" start="2025-04-03T02:33:22.189488" elapsed="0.271356"/>
+</kw>
+<kw name="E informe o e-mail do usuário ${email}" owner="HomePage" source_name="E informe o e-mail do usuário ${email}">
+<kw name="Click" owner="Browser">
+<msg time="2025-04-03T02:33:22.465537" level="INFO">Clicks the element 'css=.email[placeholder="Digite seu e-mail"]'.</msg>
+<arg>${homePage.inputEmail}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-04-03T02:33:22.463710" elapsed="0.140549"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-04-03T02:33:22.632146" level="INFO">Waited for Element with selector css=.email[placeholder="Digite seu e-mail"] at state visible</msg>
+<arg>${homePage.inputEmail}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-04-03T02:33:22.604826" elapsed="0.028093"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-04-03T02:33:22.635833" level="INFO">Fills the text 'manuella01@example.org' in the given field.</msg>
+<arg>${homePage.inputEmail}</arg>
+<arg>${email}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-04-03T02:33:22.633699" elapsed="0.058035"/>
+</kw>
+<status status="PASS" start="2025-04-03T02:33:22.462166" elapsed="0.230113"/>
+</kw>
+<kw name="Quando clicar no botão enviar" owner="HomePage">
+<kw name="Scroll By" owner="Browser">
+<msg time="2025-04-03T02:33:22.811080" level="INFO">JavaScript executed successfully.</msg>
+<msg time="2025-04-03T02:33:22.811291" level="INFO">JavaScript executed successfully.</msg>
+<msg time="2025-04-03T02:33:22.873881" level="INFO">JavaScript executed successfully.</msg>
+<msg time="2025-04-03T02:33:22.874217" level="INFO">JavaScript executed successfully.</msg>
+<msg time="2025-04-03T02:33:22.885501" level="INFO">JavaScript executed successfully.</msg>
+<arg>${homePage.buttonSubmit}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Scrolls an element or the page relative from current position by the given values.</doc>
+<status status="PASS" start="2025-04-03T02:33:22.695431" elapsed="0.190219"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-04-03T02:33:22.889970" level="INFO">Waited for Element with selector css=button &gt;&gt; text=Enviar at state visible</msg>
+<arg>${homePage.buttonSubmit}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-04-03T02:33:22.885815" elapsed="0.004291"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-04-03T02:33:22.890786" level="INFO">Clicks the element 'css=button &gt;&gt; text=Enviar'.</msg>
+<arg>${homePage.buttonSubmit}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-04-03T02:33:22.890262" elapsed="0.020422"/>
+</kw>
+<status status="PASS" start="2025-04-03T02:33:22.693740" elapsed="0.217047"/>
+</kw>
+<kw name="Então exibi a mensagem de cadastro com sucesso" owner="HomePage">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-04-03T02:33:22.911503" level="INFO">${message} = css=p &gt;&gt; text=Usuário cadastrado com sucesso</msg>
+<var>${message}</var>
+<arg>css=p &gt;&gt; text=${expected_message}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-04-03T02:33:22.911338" elapsed="0.000187"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-04-03T02:33:23.757355" level="INFO">Waited for Element with selector css=p &gt;&gt; text=Usuário cadastrado com sucesso at state visible</msg>
+<arg>${message}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-04-03T02:33:22.911615" elapsed="0.847225"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-04-03T02:33:23.817524" level="INFO">Text: 'Usuário cadastrado com sucesso'</msg>
+<msg time="2025-04-03T02:33:23.818348" level="INFO">${expected_message} = Usuário cadastrado com sucesso</msg>
+<var>${expected_message}</var>
+<arg>${message}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-04-03T02:33:23.760094" elapsed="0.058308"/>
+</kw>
+<arg>Usuário cadastrado com sucesso</arg>
+<status status="PASS" start="2025-04-03T02:33:22.911005" elapsed="0.907912"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-04-03T02:33:26.821297" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-04-03T02:33:23.820079" elapsed="3.001691"/>
+</kw>
+<kw name="Finish Browser" owner="OpenPage" type="TEARDOWN">
+<kw name="Take Screenshot" owner="Browser">
+<msg time="2025-04-03T02:33:27.221829" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<arg>fullPage=true</arg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="PASS" start="2025-04-03T02:33:26.824269" elapsed="0.398275"/>
+</kw>
+<kw name="Close Browser" owner="Browser">
+<msg time="2025-04-03T02:33:27.607927" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-04-03T02:33:27.223453" elapsed="0.384852"/>
+</kw>
+<status status="PASS" start="2025-04-03T02:33:26.823197" elapsed="0.785337"/>
+</kw>
+<doc>Adicionar um framework</doc>
+<tag>success</tag>
+<status status="PASS" start="2025-04-03T02:33:19.379449" elapsed="8.229319"/>
+</test>
+<doc>suite de testes da página inicial</doc>
+<status status="PASS" start="2025-04-03T02:33:18.679499" elapsed="8.949941"/>
+</suite>
+<status status="PASS" start="2025-04-03T02:33:18.636087" elapsed="9.015537"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">success</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="HomePage">Tests.HomePage</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
