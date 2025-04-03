@@ -7,7 +7,7 @@ Resource    ../../resources/Base.resource
 *** Variables ***
 ${BASE_URL}        https://testpick.vercel.app/
 ${BROWSER}         chromium
-${IS_HEADLESS}     False
+${IS_HEADLESS}     True
 
 
 *** Keywords ***
