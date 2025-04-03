@@ -39,11 +39,10 @@ Quando clicar no botão enviar
     Wait For Elements State    ${homePage.buttonSubmit}    visible
     Click                      ${homePage.buttonSubmit}
 
-Então exibi a mensagem de cadastro com sucesso
+Então exibi a mensagem
     [Arguments]    ${expected_message}
 
     ${message}    Set Variable   css=p >> text=${expected_message}
-
 
     Wait For Elements State    ${message}   visible
     ${expected_message}        Get Text     ${message}    

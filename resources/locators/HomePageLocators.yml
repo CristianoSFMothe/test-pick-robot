@@ -1,5 +1,6 @@
 homePage:
   title: css=h1 >> text=Test Pick
+  labelFramework: css=label >> text=Framework
   selectFramework: css=[data-testid="select-framework"]
   selectFrameworkOptions: css=div[role="option"]
   textAreaDescription: css=#description

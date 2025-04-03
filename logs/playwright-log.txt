@@ -1,94 +1,79 @@
-{"level":30,"time":"2025-04-03T05:33:19.748Z","pid":52684,"hostname":"cristiano","msg":"Listening on 57855"}
-(node:52684) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2025-04-03T15:18:55.395Z","pid":43921,"hostname":"cristiano","msg":"Listening on 35855"}
+(node:43921) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-{"level":30,"time":"2025-04-03T05:33:19.866Z","pid":52684,"hostname":"cristiano","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-04-03T05:33:20.387Z","pid":52684,"hostname":"cristiano","msg":"Adding browser to stack: chromium, version: 131.0.6778.33"}
-{"level":30,"time":"2025-04-03T05:33:20.388Z","pid":52684,"hostname":"cristiano","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-04-03T05:33:20.388Z","pid":52684,"hostname":"cristiano","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-04-03T05:33:20.412Z","pid":52684,"hostname":"cristiano","msg":"Start of node method newContext"}
-{"level":30,"time":"2025-04-03T05:33:20.412Z","pid":52684,"hostname":"cristiano","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"recordVideo\":{\"dir\":\"/home/ferreira/Documentos/GitHub/test-pick-robot/logs/browser/video/videos\",\"size\":{\"width\":1280,\"height\":720}},\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
-{"level":30,"time":"2025-04-03T05:33:20.413Z","pid":52684,"hostname":"cristiano","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-04-03T05:33:20.413Z","pid":52684,"hostname":"cristiano","msg":"Trace file: "}
-{"level":30,"time":"2025-04-03T05:33:20.442Z","pid":52684,"hostname":"cristiano","msg":"Changed active context"}
-{"level":30,"time":"2025-04-03T05:33:20.443Z","pid":52684,"hostname":"cristiano","msg":"End of node method newContext"}
-{"level":30,"time":"2025-04-03T05:33:20.457Z","pid":52684,"hostname":"cristiano","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-04-03T05:33:20.457Z","pid":52684,"hostname":"cristiano","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-04-03T05:33:20.948Z","pid":52684,"hostname":"cristiano","msg":"Video path: /home/ferreira/Documentos/GitHub/test-pick-robot/logs/browser/video/videos/2c75e1d90c89c6261fec860ef25e2bc2.webm"}
-{"level":30,"time":"2025-04-03T05:33:20.948Z","pid":52684,"hostname":"cristiano","msg":"Changed active page"}
-{"level":30,"time":"2025-04-03T05:33:21.308Z","pid":52684,"hostname":"cristiano","msg":"End of node method newPage"}
-{"level":30,"time":"2025-04-03T05:33:21.341Z","pid":52684,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-03T05:33:21.343Z","pid":52684,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=h1 >> text=Test Pick in page."}
-{"level":30,"time":"2025-04-03T05:33:21.480Z","pid":52684,"hostname":"cristiano","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-03T05:33:21.494Z","pid":52684,"hostname":"cristiano","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-03T05:33:21.495Z","pid":52684,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=[data-testid=\"select-framework\"] in page."}
-{"level":30,"time":"2025-04-03T05:33:21.662Z","pid":52684,"hostname":"cristiano","msg":"End of node method click"}
-{"level":30,"time":"2025-04-03T05:33:21.679Z","pid":52684,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-03T05:33:21.680Z","pid":52684,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=div[role=\"option\"] >> text=\"Cypress\" in page."}
-{"level":30,"time":"2025-04-03T05:33:21.697Z","pid":52684,"hostname":"cristiano","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-03T05:33:21.704Z","pid":52684,"hostname":"cristiano","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-03T05:33:21.704Z","pid":52684,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=div[role=\"option\"] >> text=\"Cypress\" in page."}
-{"level":30,"time":"2025-04-03T05:33:21.951Z","pid":52684,"hostname":"cristiano","msg":"End of node method click"}
-{"level":30,"time":"2025-04-03T05:33:21.966Z","pid":52684,"hostname":"cristiano","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-03T05:33:21.967Z","pid":52684,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=#description in page."}
-{"level":30,"time":"2025-04-03T05:33:22.080Z","pid":52684,"hostname":"cristiano","msg":"End of node method click"}
-{"level":30,"time":"2025-04-03T05:33:22.099Z","pid":52684,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-03T05:33:22.100Z","pid":52684,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=#description in page."}
-{"level":30,"time":"2025-04-03T05:33:22.112Z","pid":52684,"hostname":"cristiano","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-03T05:33:22.131Z","pid":52684,"hostname":"cristiano","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-04-03T05:33:22.132Z","pid":52684,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=#description in page."}
-{"level":30,"time":"2025-04-03T05:33:22.182Z","pid":52684,"hostname":"cristiano","msg":"End of node method fillText"}
-{"level":30,"time":"2025-04-03T05:33:22.200Z","pid":52684,"hostname":"cristiano","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-03T05:33:22.200Z","pid":52684,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=.email[placeholder=\"Digite seu e-mail\"] in page."}
-{"level":30,"time":"2025-04-03T05:33:22.347Z","pid":52684,"hostname":"cristiano","msg":"End of node method click"}
-{"level":30,"time":"2025-04-03T05:33:22.362Z","pid":52684,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-03T05:33:22.362Z","pid":52684,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=[name=\"name\"] in page."}
-{"level":30,"time":"2025-04-03T05:33:22.385Z","pid":52684,"hostname":"cristiano","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-03T05:33:22.400Z","pid":52684,"hostname":"cristiano","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-04-03T05:33:22.400Z","pid":52684,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=[name=\"name\"] in page."}
-{"level":30,"time":"2025-04-03T05:33:22.457Z","pid":52684,"hostname":"cristiano","msg":"End of node method fillText"}
-{"level":30,"time":"2025-04-03T05:33:22.471Z","pid":52684,"hostname":"cristiano","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-03T05:33:22.472Z","pid":52684,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=.email[placeholder=\"Digite seu e-mail\"] in page."}
-{"level":30,"time":"2025-04-03T05:33:22.601Z","pid":52684,"hostname":"cristiano","msg":"End of node method click"}
-{"level":30,"time":"2025-04-03T05:33:22.609Z","pid":52684,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-03T05:33:22.610Z","pid":52684,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=.email[placeholder=\"Digite seu e-mail\"] in page."}
-{"level":30,"time":"2025-04-03T05:33:22.629Z","pid":52684,"hostname":"cristiano","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-03T05:33:22.648Z","pid":52684,"hostname":"cristiano","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-04-03T05:33:22.648Z","pid":52684,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=.email[placeholder=\"Digite seu e-mail\"] in page."}
-{"level":30,"time":"2025-04-03T05:33:22.687Z","pid":52684,"hostname":"cristiano","msg":"End of node method fillText"}
-{"level":30,"time":"2025-04-03T05:33:22.705Z","pid":52684,"hostname":"cristiano","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2025-04-03T05:33:22.706Z","pid":52684,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=button >> text=Enviar in page."}
-{"level":30,"time":"2025-04-03T05:33:22.770Z","pid":52684,"hostname":"cristiano","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2025-04-03T05:33:22.781Z","pid":52684,"hostname":"cristiano","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2025-04-03T05:33:22.782Z","pid":52684,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=button >> text=Enviar in page."}
-{"level":30,"time":"2025-04-03T05:33:22.807Z","pid":52684,"hostname":"cristiano","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2025-04-03T05:33:22.815Z","pid":52684,"hostname":"cristiano","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2025-04-03T05:33:22.815Z","pid":52684,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=button >> text=Enviar in page."}
-{"level":30,"time":"2025-04-03T05:33:22.832Z","pid":52684,"hostname":"cristiano","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2025-04-03T05:33:22.840Z","pid":52684,"hostname":"cristiano","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2025-04-03T05:33:22.841Z","pid":52684,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=button >> text=Enviar in page."}
-{"level":30,"time":"2025-04-03T05:33:22.870Z","pid":52684,"hostname":"cristiano","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2025-04-03T05:33:22.878Z","pid":52684,"hostname":"cristiano","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2025-04-03T05:33:22.879Z","pid":52684,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=button >> text=Enviar in page."}
-{"level":30,"time":"2025-04-03T05:33:22.885Z","pid":52684,"hostname":"cristiano","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2025-04-03T05:33:22.887Z","pid":52684,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-03T05:33:22.887Z","pid":52684,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=button >> text=Enviar in page."}
-{"level":30,"time":"2025-04-03T05:33:22.889Z","pid":52684,"hostname":"cristiano","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-03T05:33:22.891Z","pid":52684,"hostname":"cristiano","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-03T05:33:22.891Z","pid":52684,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=button >> text=Enviar in page."}
-{"level":30,"time":"2025-04-03T05:33:22.910Z","pid":52684,"hostname":"cristiano","msg":"End of node method click"}
-{"level":30,"time":"2025-04-03T05:33:22.912Z","pid":52684,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-03T05:33:22.912Z","pid":52684,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=p >> text=Usuário cadastrado com sucesso in page."}
-{"level":30,"time":"2025-04-03T05:33:23.753Z","pid":52684,"hostname":"cristiano","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-03T05:33:23.768Z","pid":52684,"hostname":"cristiano","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-03T05:33:23.768Z","pid":52684,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=p >> text=Usuário cadastrado com sucesso in page."}
-{"level":30,"time":"2025-04-03T05:33:23.813Z","pid":52684,"hostname":"cristiano","msg":"Retrieved text for element css=p >> text=Usuário cadastrado com sucesso containing Usuário cadastrado com sucesso"}
-{"level":30,"time":"2025-04-03T05:33:23.814Z","pid":52684,"hostname":"cristiano","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-03T05:33:26.834Z","pid":52684,"hostname":"cristiano","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-04-03T05:33:26.835Z","pid":52684,"hostname":"cristiano","Take screenshot with options: ":{"path":"/home/ferreira/Documentos/GitHub/test-pick-robot/logs/browser/screenshot/robotframework-browser-screenshot-1.png","fileType":"png","fullPage":true,"timeout":30000,"omitBackground":false}}
-{"level":30,"time":"2025-04-03T05:33:27.217Z","pid":52684,"hostname":"cristiano","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-04-03T05:33:27.231Z","pid":52684,"hostname":"cristiano","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2025-04-03T05:33:27.256Z","pid":52684,"hostname":"cristiano","msg":"Removed page=cc0eb076-6be1-4e19-8d28-1c48f30fdda5 from context=264b0f21-5168-4de7-b915-becf676bdd22 page stack"}
-{"level":30,"time":"2025-04-03T05:33:27.604Z","pid":52684,"hostname":"cristiano","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2025-04-03T15:18:55.449Z","pid":43921,"hostname":"cristiano","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-04-03T15:18:55.673Z","pid":43921,"hostname":"cristiano","msg":"Adding browser to stack: chromium, version: 131.0.6778.33"}
+{"level":30,"time":"2025-04-03T15:18:55.673Z","pid":43921,"hostname":"cristiano","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-04-03T15:18:55.673Z","pid":43921,"hostname":"cristiano","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-04-03T15:18:55.677Z","pid":43921,"hostname":"cristiano","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-04-03T15:18:55.677Z","pid":43921,"hostname":"cristiano","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"recordVideo\":{\"dir\":\"/home/ferreira/Documentos/GitHub/test-pick-robot/logs/browser/video/videos\",\"size\":{\"width\":1280,\"height\":720}},\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2025-04-03T15:18:55.677Z","pid":43921,"hostname":"cristiano","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-03T15:18:55.677Z","pid":43921,"hostname":"cristiano","msg":"Trace file: "}
+{"level":30,"time":"2025-04-03T15:18:55.689Z","pid":43921,"hostname":"cristiano","msg":"Changed active context"}
+{"level":30,"time":"2025-04-03T15:18:55.689Z","pid":43921,"hostname":"cristiano","msg":"End of node method newContext"}
+{"level":30,"time":"2025-04-03T15:18:55.692Z","pid":43921,"hostname":"cristiano","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-03T15:18:55.693Z","pid":43921,"hostname":"cristiano","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-03T15:18:55.879Z","pid":43921,"hostname":"cristiano","msg":"Video path: /home/ferreira/Documentos/GitHub/test-pick-robot/logs/browser/video/videos/bed86dc737a56908a09cefb71e7929ea.webm"}
+{"level":30,"time":"2025-04-03T15:18:55.879Z","pid":43921,"hostname":"cristiano","msg":"Changed active page"}
+{"level":30,"time":"2025-04-03T15:18:56.107Z","pid":43921,"hostname":"cristiano","msg":"End of node method newPage"}
+{"level":30,"time":"2025-04-03T15:18:56.115Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:18:56.115Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=h1 >> text=Test Pick in page."}
+{"level":30,"time":"2025-04-03T15:18:56.188Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:18:56.191Z","pid":43921,"hostname":"cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T15:18:56.191Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=[data-testid=\"select-framework\"] in page."}
+{"level":30,"time":"2025-04-03T15:18:56.264Z","pid":43921,"hostname":"cristiano","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T15:18:56.269Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:18:56.269Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=div[role=\"option\"] >> text=\"Cypress\" in page."}
+{"level":30,"time":"2025-04-03T15:18:56.279Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:18:56.281Z","pid":43921,"hostname":"cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T15:18:56.281Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=div[role=\"option\"] >> text=\"Cypress\" in page."}
+{"level":30,"time":"2025-04-03T15:18:56.532Z","pid":43921,"hostname":"cristiano","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T15:18:56.538Z","pid":43921,"hostname":"cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T15:18:56.538Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=#description in page."}
+{"level":30,"time":"2025-04-03T15:18:56.589Z","pid":43921,"hostname":"cristiano","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T15:18:56.593Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:18:56.593Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=#description in page."}
+{"level":30,"time":"2025-04-03T15:18:56.597Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:18:56.605Z","pid":43921,"hostname":"cristiano","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-03T15:18:56.605Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=#description in page."}
+{"level":30,"time":"2025-04-03T15:18:56.618Z","pid":43921,"hostname":"cristiano","msg":"End of node method fillText"}
+{"level":30,"time":"2025-04-03T15:18:56.623Z","pid":43921,"hostname":"cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T15:18:56.623Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=.email[placeholder=\"Digite seu e-mail\"] in page."}
+{"level":30,"time":"2025-04-03T15:18:56.675Z","pid":43921,"hostname":"cristiano","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T15:18:56.680Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:18:56.680Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=[name=\"name\"] in page."}
+{"level":30,"time":"2025-04-03T15:18:56.683Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:18:56.688Z","pid":43921,"hostname":"cristiano","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-03T15:18:56.688Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=[name=\"name\"] in page."}
+{"level":30,"time":"2025-04-03T15:18:56.695Z","pid":43921,"hostname":"cristiano","msg":"End of node method fillText"}
+{"level":30,"time":"2025-04-03T15:18:56.705Z","pid":43921,"hostname":"cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T15:18:56.705Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=.email[placeholder=\"Digite seu e-mail\"] in page."}
+{"level":30,"time":"2025-04-03T15:18:56.739Z","pid":43921,"hostname":"cristiano","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T15:18:56.747Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:18:56.747Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=.email[placeholder=\"Digite seu e-mail\"] in page."}
+{"level":30,"time":"2025-04-03T15:18:56.750Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:18:56.754Z","pid":43921,"hostname":"cristiano","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-03T15:18:56.754Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=.email[placeholder=\"Digite seu e-mail\"] in page."}
+{"level":30,"time":"2025-04-03T15:18:56.761Z","pid":43921,"hostname":"cristiano","msg":"End of node method fillText"}
+{"level":30,"time":"2025-04-03T15:18:56.765Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:18:56.765Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=button >> text=Enviar in page."}
+{"level":30,"time":"2025-04-03T15:18:56.772Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:18:56.776Z","pid":43921,"hostname":"cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T15:18:56.776Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=button >> text=Enviar in page."}
+{"level":30,"time":"2025-04-03T15:18:56.832Z","pid":43921,"hostname":"cristiano","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T15:18:56.837Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:18:56.837Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=p >> text=Usuário cadastrado com sucesso in page."}
+{"level":30,"time":"2025-04-03T15:18:59.637Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:18:59.640Z","pid":43921,"hostname":"cristiano","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T15:18:59.640Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=p >> text=Usuário cadastrado com sucesso in page."}
+{"level":30,"time":"2025-04-03T15:18:59.656Z","pid":43921,"hostname":"cristiano","msg":"Retrieved text for element css=p >> text=Usuário cadastrado com sucesso containing Usuário cadastrado com sucesso"}
+{"level":30,"time":"2025-04-03T15:18:59.656Z","pid":43921,"hostname":"cristiano","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T15:18:59.659Z","pid":43921,"hostname":"cristiano","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T15:18:59.659Z","pid":43921,"hostname":"cristiano","Take screenshot with options: ":{"path":"/home/ferreira/Documentos/GitHub/test-pick-robot/logs/browser/screenshot/robotframework-browser-screenshot-1.png","fileType":"png","fullPage":true,"timeout":30000,"omitBackground":false}}
+{"level":30,"time":"2025-04-03T15:18:59.777Z","pid":43921,"hostname":"cristiano","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T15:18:59.786Z","pid":43921,"hostname":"cristiano","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-04-03T15:18:59.796Z","pid":43921,"hostname":"cristiano","msg":"Removed page=5fd16006-ec37-4663-ae91-056351d4158e from context=1bb9afc8-91a2-443e-999f-4abe95887aa0 page stack"}
+{"level":30,"time":"2025-04-03T15:18:59.936Z","pid":43921,"hostname":"cristiano","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12202:15)
@@ -102,8 +87,74 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2025-04-03T05:33:27.623Z","pid":52684,"hostname":"cristiano","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-03T05:33:27.624Z","pid":52684,"hostname":"cristiano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T15:18:59.945Z","pid":43921,"hostname":"cristiano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T15:18:59.945Z","pid":43921,"hostname":"cristiano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T15:18:59.952Z","pid":43921,"hostname":"cristiano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T15:18:59.953Z","pid":43921,"hostname":"cristiano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T15:18:59.960Z","pid":43921,"hostname":"cristiano","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-04-03T15:19:00.260Z","pid":43921,"hostname":"cristiano","msg":"Adding browser to stack: chromium, version: 131.0.6778.33"}
+{"level":30,"time":"2025-04-03T15:19:00.260Z","pid":43921,"hostname":"cristiano","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-04-03T15:19:00.260Z","pid":43921,"hostname":"cristiano","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-04-03T15:19:00.264Z","pid":43921,"hostname":"cristiano","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-04-03T15:19:00.265Z","pid":43921,"hostname":"cristiano","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"recordVideo\":{\"dir\":\"/home/ferreira/Documentos/GitHub/test-pick-robot/logs/browser/video/videos\",\"size\":{\"width\":1280,\"height\":720}},\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2025-04-03T15:19:00.265Z","pid":43921,"hostname":"cristiano","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-03T15:19:00.265Z","pid":43921,"hostname":"cristiano","msg":"Trace file: "}
+{"level":30,"time":"2025-04-03T15:19:00.278Z","pid":43921,"hostname":"cristiano","msg":"Changed active context"}
+{"level":30,"time":"2025-04-03T15:19:00.278Z","pid":43921,"hostname":"cristiano","msg":"End of node method newContext"}
+{"level":30,"time":"2025-04-03T15:19:00.283Z","pid":43921,"hostname":"cristiano","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-03T15:19:00.284Z","pid":43921,"hostname":"cristiano","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-03T15:19:00.491Z","pid":43921,"hostname":"cristiano","msg":"Video path: /home/ferreira/Documentos/GitHub/test-pick-robot/logs/browser/video/videos/6f6d9a2d015cd71aa81330325009da31.webm"}
+{"level":30,"time":"2025-04-03T15:19:00.491Z","pid":43921,"hostname":"cristiano","msg":"Changed active page"}
+{"level":30,"time":"2025-04-03T15:19:00.704Z","pid":43921,"hostname":"cristiano","msg":"End of node method newPage"}
+{"level":30,"time":"2025-04-03T15:19:00.711Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:00.711Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=h1 >> text=Test Pick in page."}
+{"level":30,"time":"2025-04-03T15:19:00.761Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:00.763Z","pid":43921,"hostname":"cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T15:19:00.763Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=#description in page."}
+{"level":30,"time":"2025-04-03T15:19:00.788Z","pid":43921,"hostname":"cristiano","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T15:19:00.791Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:00.791Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=#description in page."}
+{"level":30,"time":"2025-04-03T15:19:00.795Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:00.797Z","pid":43921,"hostname":"cristiano","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-03T15:19:00.797Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=#description in page."}
+{"level":30,"time":"2025-04-03T15:19:00.805Z","pid":43921,"hostname":"cristiano","msg":"End of node method fillText"}
+{"level":30,"time":"2025-04-03T15:19:00.810Z","pid":43921,"hostname":"cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T15:19:00.810Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=.email[placeholder=\"Digite seu e-mail\"] in page."}
+{"level":30,"time":"2025-04-03T15:19:00.856Z","pid":43921,"hostname":"cristiano","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T15:19:00.860Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:00.860Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=[name=\"name\"] in page."}
+{"level":30,"time":"2025-04-03T15:19:00.866Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:00.869Z","pid":43921,"hostname":"cristiano","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-03T15:19:00.869Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=[name=\"name\"] in page."}
+{"level":30,"time":"2025-04-03T15:19:00.878Z","pid":43921,"hostname":"cristiano","msg":"End of node method fillText"}
+{"level":30,"time":"2025-04-03T15:19:00.890Z","pid":43921,"hostname":"cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T15:19:00.890Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=.email[placeholder=\"Digite seu e-mail\"] in page."}
+{"level":30,"time":"2025-04-03T15:19:00.983Z","pid":43921,"hostname":"cristiano","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T15:19:00.993Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:00.993Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=.email[placeholder=\"Digite seu e-mail\"] in page."}
+{"level":30,"time":"2025-04-03T15:19:00.998Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:01.005Z","pid":43921,"hostname":"cristiano","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-03T15:19:01.005Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=.email[placeholder=\"Digite seu e-mail\"] in page."}
+{"level":30,"time":"2025-04-03T15:19:01.034Z","pid":43921,"hostname":"cristiano","msg":"End of node method fillText"}
+{"level":30,"time":"2025-04-03T15:19:01.042Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:01.042Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=button >> text=Enviar in page."}
+{"level":30,"time":"2025-04-03T15:19:01.053Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:01.059Z","pid":43921,"hostname":"cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T15:19:01.060Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=button >> text=Enviar in page."}
+{"level":30,"time":"2025-04-03T15:19:01.109Z","pid":43921,"hostname":"cristiano","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T15:19:01.119Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:01.119Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=p >> text=Selecione um framework in page."}
+{"level":30,"time":"2025-04-03T15:19:01.126Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:01.131Z","pid":43921,"hostname":"cristiano","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T15:19:01.131Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=p >> text=Selecione um framework in page."}
+{"level":30,"time":"2025-04-03T15:19:01.163Z","pid":43921,"hostname":"cristiano","msg":"Retrieved text for element css=p >> text=Selecione um framework containing Selecione um framework"}
+{"level":30,"time":"2025-04-03T15:19:01.163Z","pid":43921,"hostname":"cristiano","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T15:19:01.167Z","pid":43921,"hostname":"cristiano","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T15:19:01.167Z","pid":43921,"hostname":"cristiano","Take screenshot with options: ":{"path":"/home/ferreira/Documentos/GitHub/test-pick-robot/logs/browser/screenshot/robotframework-browser-screenshot-2.png","fileType":"png","fullPage":true,"timeout":30000,"omitBackground":false}}
+{"level":30,"time":"2025-04-03T15:19:01.287Z","pid":43921,"hostname":"cristiano","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T15:19:01.290Z","pid":43921,"hostname":"cristiano","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-04-03T15:19:01.297Z","pid":43921,"hostname":"cristiano","msg":"Removed page=5a98b151-ede3-4717-b134-5f6ff90ff270 from context=3328dcec-52a5-4c3f-852f-2ce1c80abcaa page stack"}
+{"level":30,"time":"2025-04-03T15:19:01.406Z","pid":43921,"hostname":"cristiano","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12202:15)
@@ -117,7 +168,265 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2025-04-03T05:33:27.646Z","pid":52684,"hostname":"cristiano","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-03T05:33:27.647Z","pid":52684,"hostname":"cristiano","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-03T05:33:27.701Z","pid":52684,"hostname":"cristiano","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2025-04-03T05:33:27.702Z","pid":52684,"hostname":"cristiano","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-04-03T15:19:01.410Z","pid":43921,"hostname":"cristiano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T15:19:01.411Z","pid":43921,"hostname":"cristiano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T15:19:01.416Z","pid":43921,"hostname":"cristiano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T15:19:01.416Z","pid":43921,"hostname":"cristiano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T15:19:01.419Z","pid":43921,"hostname":"cristiano","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-04-03T15:19:01.644Z","pid":43921,"hostname":"cristiano","msg":"Adding browser to stack: chromium, version: 131.0.6778.33"}
+{"level":30,"time":"2025-04-03T15:19:01.644Z","pid":43921,"hostname":"cristiano","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-04-03T15:19:01.644Z","pid":43921,"hostname":"cristiano","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-04-03T15:19:01.648Z","pid":43921,"hostname":"cristiano","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-04-03T15:19:01.648Z","pid":43921,"hostname":"cristiano","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"recordVideo\":{\"dir\":\"/home/ferreira/Documentos/GitHub/test-pick-robot/logs/browser/video/videos\",\"size\":{\"width\":1280,\"height\":720}},\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2025-04-03T15:19:01.648Z","pid":43921,"hostname":"cristiano","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-03T15:19:01.648Z","pid":43921,"hostname":"cristiano","msg":"Trace file: "}
+{"level":30,"time":"2025-04-03T15:19:01.658Z","pid":43921,"hostname":"cristiano","msg":"Changed active context"}
+{"level":30,"time":"2025-04-03T15:19:01.658Z","pid":43921,"hostname":"cristiano","msg":"End of node method newContext"}
+{"level":30,"time":"2025-04-03T15:19:01.660Z","pid":43921,"hostname":"cristiano","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-03T15:19:01.660Z","pid":43921,"hostname":"cristiano","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-03T15:19:01.823Z","pid":43921,"hostname":"cristiano","msg":"Video path: /home/ferreira/Documentos/GitHub/test-pick-robot/logs/browser/video/videos/6afd5489f4bc86a3604b665bf7785dfc.webm"}
+{"level":30,"time":"2025-04-03T15:19:01.823Z","pid":43921,"hostname":"cristiano","msg":"Changed active page"}
+{"level":30,"time":"2025-04-03T15:19:02.004Z","pid":43921,"hostname":"cristiano","msg":"End of node method newPage"}
+{"level":30,"time":"2025-04-03T15:19:02.011Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:02.011Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=h1 >> text=Test Pick in page."}
+{"level":30,"time":"2025-04-03T15:19:02.053Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:02.056Z","pid":43921,"hostname":"cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T15:19:02.056Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=[data-testid=\"select-framework\"] in page."}
+{"level":30,"time":"2025-04-03T15:19:02.119Z","pid":43921,"hostname":"cristiano","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T15:19:02.124Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:02.124Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=div[role=\"option\"] >> text=\"Cypress\" in page."}
+{"level":30,"time":"2025-04-03T15:19:02.130Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:02.134Z","pid":43921,"hostname":"cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T15:19:02.134Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=div[role=\"option\"] >> text=\"Cypress\" in page."}
+{"level":30,"time":"2025-04-03T15:19:02.397Z","pid":43921,"hostname":"cristiano","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T15:19:02.401Z","pid":43921,"hostname":"cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T15:19:02.401Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=.email[placeholder=\"Digite seu e-mail\"] in page."}
+{"level":30,"time":"2025-04-03T15:19:02.457Z","pid":43921,"hostname":"cristiano","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T15:19:02.464Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:02.465Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=[name=\"name\"] in page."}
+{"level":30,"time":"2025-04-03T15:19:02.470Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:02.472Z","pid":43921,"hostname":"cristiano","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-03T15:19:02.472Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=[name=\"name\"] in page."}
+{"level":30,"time":"2025-04-03T15:19:02.489Z","pid":43921,"hostname":"cristiano","msg":"End of node method fillText"}
+{"level":30,"time":"2025-04-03T15:19:02.494Z","pid":43921,"hostname":"cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T15:19:02.494Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=.email[placeholder=\"Digite seu e-mail\"] in page."}
+{"level":30,"time":"2025-04-03T15:19:02.536Z","pid":43921,"hostname":"cristiano","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T15:19:02.538Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:02.538Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=.email[placeholder=\"Digite seu e-mail\"] in page."}
+{"level":30,"time":"2025-04-03T15:19:02.540Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:02.546Z","pid":43921,"hostname":"cristiano","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-03T15:19:02.546Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=.email[placeholder=\"Digite seu e-mail\"] in page."}
+{"level":30,"time":"2025-04-03T15:19:02.557Z","pid":43921,"hostname":"cristiano","msg":"End of node method fillText"}
+{"level":30,"time":"2025-04-03T15:19:02.565Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:02.566Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=button >> text=Enviar in page."}
+{"level":30,"time":"2025-04-03T15:19:02.569Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:02.573Z","pid":43921,"hostname":"cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T15:19:02.573Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=button >> text=Enviar in page."}
+{"level":30,"time":"2025-04-03T15:19:02.629Z","pid":43921,"hostname":"cristiano","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T15:19:02.634Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:02.634Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=p >> text=A descrição deve ter pelo menos 10 caracteres in page."}
+{"level":30,"time":"2025-04-03T15:19:02.639Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:02.645Z","pid":43921,"hostname":"cristiano","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T15:19:02.645Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=p >> text=A descrição deve ter pelo menos 10 caracteres in page."}
+{"level":30,"time":"2025-04-03T15:19:02.673Z","pid":43921,"hostname":"cristiano","msg":"Retrieved text for element css=p >> text=A descrição deve ter pelo menos 10 caracteres containing A descrição deve ter pelo menos 10 caracteres"}
+{"level":30,"time":"2025-04-03T15:19:02.673Z","pid":43921,"hostname":"cristiano","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T15:19:02.682Z","pid":43921,"hostname":"cristiano","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T15:19:02.682Z","pid":43921,"hostname":"cristiano","Take screenshot with options: ":{"path":"/home/ferreira/Documentos/GitHub/test-pick-robot/logs/browser/screenshot/robotframework-browser-screenshot-3.png","fileType":"png","fullPage":true,"timeout":30000,"omitBackground":false}}
+{"level":30,"time":"2025-04-03T15:19:02.785Z","pid":43921,"hostname":"cristiano","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T15:19:02.789Z","pid":43921,"hostname":"cristiano","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-04-03T15:19:02.798Z","pid":43921,"hostname":"cristiano","msg":"Removed page=2f1917e0-bc45-44d7-aab6-9410a8005456 from context=4bf0e84e-42b6-46f9-a45d-cd7d3dd7516e page stack"}
+{"level":30,"time":"2025-04-03T15:19:02.906Z","pid":43921,"hostname":"cristiano","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12202:15)
+    at PlaywrightServer.getActiveBrowser (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13094:59)
+    at PlaywrightServer.setTimeout (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13342:57)
+    at Object.onReceiveHalfClose (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-04-03T15:19:02.917Z","pid":43921,"hostname":"cristiano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T15:19:02.917Z","pid":43921,"hostname":"cristiano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T15:19:02.918Z","pid":43921,"hostname":"cristiano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T15:19:02.918Z","pid":43921,"hostname":"cristiano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T15:19:02.921Z","pid":43921,"hostname":"cristiano","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-04-03T15:19:03.165Z","pid":43921,"hostname":"cristiano","msg":"Adding browser to stack: chromium, version: 131.0.6778.33"}
+{"level":30,"time":"2025-04-03T15:19:03.165Z","pid":43921,"hostname":"cristiano","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-04-03T15:19:03.165Z","pid":43921,"hostname":"cristiano","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-04-03T15:19:03.169Z","pid":43921,"hostname":"cristiano","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-04-03T15:19:03.169Z","pid":43921,"hostname":"cristiano","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"recordVideo\":{\"dir\":\"/home/ferreira/Documentos/GitHub/test-pick-robot/logs/browser/video/videos\",\"size\":{\"width\":1280,\"height\":720}},\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2025-04-03T15:19:03.169Z","pid":43921,"hostname":"cristiano","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-03T15:19:03.169Z","pid":43921,"hostname":"cristiano","msg":"Trace file: "}
+{"level":30,"time":"2025-04-03T15:19:03.173Z","pid":43921,"hostname":"cristiano","msg":"Changed active context"}
+{"level":30,"time":"2025-04-03T15:19:03.173Z","pid":43921,"hostname":"cristiano","msg":"End of node method newContext"}
+{"level":30,"time":"2025-04-03T15:19:03.178Z","pid":43921,"hostname":"cristiano","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-03T15:19:03.178Z","pid":43921,"hostname":"cristiano","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-03T15:19:03.351Z","pid":43921,"hostname":"cristiano","msg":"Video path: /home/ferreira/Documentos/GitHub/test-pick-robot/logs/browser/video/videos/9eaaa36e62990efc3c46e5ab88730335.webm"}
+{"level":30,"time":"2025-04-03T15:19:03.351Z","pid":43921,"hostname":"cristiano","msg":"Changed active page"}
+{"level":30,"time":"2025-04-03T15:19:03.519Z","pid":43921,"hostname":"cristiano","msg":"End of node method newPage"}
+{"level":30,"time":"2025-04-03T15:19:03.526Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:03.526Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=h1 >> text=Test Pick in page."}
+{"level":30,"time":"2025-04-03T15:19:03.573Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:03.579Z","pid":43921,"hostname":"cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T15:19:03.580Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=[data-testid=\"select-framework\"] in page."}
+{"level":30,"time":"2025-04-03T15:19:03.623Z","pid":43921,"hostname":"cristiano","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T15:19:03.627Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:03.627Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=div[role=\"option\"] >> text=\"Cypress\" in page."}
+{"level":30,"time":"2025-04-03T15:19:03.634Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:03.636Z","pid":43921,"hostname":"cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T15:19:03.637Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=div[role=\"option\"] >> text=\"Cypress\" in page."}
+{"level":30,"time":"2025-04-03T15:19:03.890Z","pid":43921,"hostname":"cristiano","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T15:19:03.893Z","pid":43921,"hostname":"cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T15:19:03.893Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=#description in page."}
+{"level":30,"time":"2025-04-03T15:19:03.930Z","pid":43921,"hostname":"cristiano","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T15:19:03.937Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:03.937Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=#description in page."}
+{"level":30,"time":"2025-04-03T15:19:03.941Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:03.945Z","pid":43921,"hostname":"cristiano","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-03T15:19:03.945Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=#description in page."}
+{"level":30,"time":"2025-04-03T15:19:03.960Z","pid":43921,"hostname":"cristiano","msg":"End of node method fillText"}
+{"level":30,"time":"2025-04-03T15:19:03.969Z","pid":43921,"hostname":"cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T15:19:03.969Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=.email[placeholder=\"Digite seu e-mail\"] in page."}
+{"level":30,"time":"2025-04-03T15:19:04.017Z","pid":43921,"hostname":"cristiano","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T15:19:04.020Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:04.020Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=.email[placeholder=\"Digite seu e-mail\"] in page."}
+{"level":30,"time":"2025-04-03T15:19:04.023Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:04.030Z","pid":43921,"hostname":"cristiano","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-03T15:19:04.031Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=.email[placeholder=\"Digite seu e-mail\"] in page."}
+{"level":30,"time":"2025-04-03T15:19:04.038Z","pid":43921,"hostname":"cristiano","msg":"End of node method fillText"}
+{"level":30,"time":"2025-04-03T15:19:04.041Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:04.041Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=button >> text=Enviar in page."}
+{"level":30,"time":"2025-04-03T15:19:04.052Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:04.055Z","pid":43921,"hostname":"cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T15:19:04.055Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=button >> text=Enviar in page."}
+{"level":30,"time":"2025-04-03T15:19:04.109Z","pid":43921,"hostname":"cristiano","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T15:19:04.117Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:04.117Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=p >> text=O campo nome é obrigatório in page."}
+{"level":30,"time":"2025-04-03T15:19:04.124Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:04.129Z","pid":43921,"hostname":"cristiano","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T15:19:04.129Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=p >> text=O campo nome é obrigatório in page."}
+{"level":30,"time":"2025-04-03T15:19:04.156Z","pid":43921,"hostname":"cristiano","msg":"Retrieved text for element css=p >> text=O campo nome é obrigatório containing O campo nome é obrigatório"}
+{"level":30,"time":"2025-04-03T15:19:04.156Z","pid":43921,"hostname":"cristiano","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T15:19:04.164Z","pid":43921,"hostname":"cristiano","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T15:19:04.164Z","pid":43921,"hostname":"cristiano","Take screenshot with options: ":{"path":"/home/ferreira/Documentos/GitHub/test-pick-robot/logs/browser/screenshot/robotframework-browser-screenshot-4.png","fileType":"png","fullPage":true,"timeout":30000,"omitBackground":false}}
+{"level":30,"time":"2025-04-03T15:19:04.272Z","pid":43921,"hostname":"cristiano","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T15:19:04.274Z","pid":43921,"hostname":"cristiano","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-04-03T15:19:04.282Z","pid":43921,"hostname":"cristiano","msg":"Removed page=d508c965-bca1-41af-bdc7-2de1c4eae402 from context=6803f56b-ebe2-418f-8988-623fbf009bbc page stack"}
+{"level":30,"time":"2025-04-03T15:19:04.376Z","pid":43921,"hostname":"cristiano","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12202:15)
+    at PlaywrightServer.getActiveBrowser (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13094:59)
+    at PlaywrightServer.setTimeout (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13342:57)
+    at Object.onReceiveHalfClose (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-04-03T15:19:04.383Z","pid":43921,"hostname":"cristiano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T15:19:04.383Z","pid":43921,"hostname":"cristiano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T15:19:04.387Z","pid":43921,"hostname":"cristiano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T15:19:04.387Z","pid":43921,"hostname":"cristiano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T15:19:04.389Z","pid":43921,"hostname":"cristiano","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-04-03T15:19:04.632Z","pid":43921,"hostname":"cristiano","msg":"Adding browser to stack: chromium, version: 131.0.6778.33"}
+{"level":30,"time":"2025-04-03T15:19:04.632Z","pid":43921,"hostname":"cristiano","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-04-03T15:19:04.632Z","pid":43921,"hostname":"cristiano","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-04-03T15:19:04.635Z","pid":43921,"hostname":"cristiano","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-04-03T15:19:04.635Z","pid":43921,"hostname":"cristiano","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"recordVideo\":{\"dir\":\"/home/ferreira/Documentos/GitHub/test-pick-robot/logs/browser/video/videos\",\"size\":{\"width\":1280,\"height\":720}},\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2025-04-03T15:19:04.635Z","pid":43921,"hostname":"cristiano","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-03T15:19:04.635Z","pid":43921,"hostname":"cristiano","msg":"Trace file: "}
+{"level":30,"time":"2025-04-03T15:19:04.641Z","pid":43921,"hostname":"cristiano","msg":"Changed active context"}
+{"level":30,"time":"2025-04-03T15:19:04.641Z","pid":43921,"hostname":"cristiano","msg":"End of node method newContext"}
+{"level":30,"time":"2025-04-03T15:19:04.649Z","pid":43921,"hostname":"cristiano","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-03T15:19:04.649Z","pid":43921,"hostname":"cristiano","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-03T15:19:04.817Z","pid":43921,"hostname":"cristiano","msg":"Video path: /home/ferreira/Documentos/GitHub/test-pick-robot/logs/browser/video/videos/d084d282c1ab46e2f58b8a8cf0fded48.webm"}
+{"level":30,"time":"2025-04-03T15:19:04.817Z","pid":43921,"hostname":"cristiano","msg":"Changed active page"}
+{"level":30,"time":"2025-04-03T15:19:05.024Z","pid":43921,"hostname":"cristiano","msg":"End of node method newPage"}
+{"level":30,"time":"2025-04-03T15:19:05.033Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:05.033Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=h1 >> text=Test Pick in page."}
+{"level":30,"time":"2025-04-03T15:19:05.081Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:05.084Z","pid":43921,"hostname":"cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T15:19:05.084Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=[data-testid=\"select-framework\"] in page."}
+{"level":30,"time":"2025-04-03T15:19:05.139Z","pid":43921,"hostname":"cristiano","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T15:19:05.146Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:05.146Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=div[role=\"option\"] >> text=\"Cypress\" in page."}
+{"level":30,"time":"2025-04-03T15:19:05.149Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:05.151Z","pid":43921,"hostname":"cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T15:19:05.151Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=div[role=\"option\"] >> text=\"Cypress\" in page."}
+{"level":30,"time":"2025-04-03T15:19:05.411Z","pid":43921,"hostname":"cristiano","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T15:19:05.414Z","pid":43921,"hostname":"cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T15:19:05.414Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=#description in page."}
+{"level":30,"time":"2025-04-03T15:19:05.455Z","pid":43921,"hostname":"cristiano","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T15:19:05.458Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:05.458Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=#description in page."}
+{"level":30,"time":"2025-04-03T15:19:05.461Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:05.464Z","pid":43921,"hostname":"cristiano","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-03T15:19:05.464Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=#description in page."}
+{"level":30,"time":"2025-04-03T15:19:05.470Z","pid":43921,"hostname":"cristiano","msg":"End of node method fillText"}
+{"level":30,"time":"2025-04-03T15:19:05.477Z","pid":43921,"hostname":"cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T15:19:05.477Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=.email[placeholder=\"Digite seu e-mail\"] in page."}
+{"level":30,"time":"2025-04-03T15:19:05.535Z","pid":43921,"hostname":"cristiano","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T15:19:05.538Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:05.538Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=[name=\"name\"] in page."}
+{"level":30,"time":"2025-04-03T15:19:05.543Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:05.548Z","pid":43921,"hostname":"cristiano","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-03T15:19:05.548Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=[name=\"name\"] in page."}
+{"level":30,"time":"2025-04-03T15:19:05.556Z","pid":43921,"hostname":"cristiano","msg":"End of node method fillText"}
+{"level":30,"time":"2025-04-03T15:19:05.564Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:05.565Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=button >> text=Enviar in page."}
+{"level":30,"time":"2025-04-03T15:19:05.568Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:05.571Z","pid":43921,"hostname":"cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T15:19:05.571Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=button >> text=Enviar in page."}
+{"level":30,"time":"2025-04-03T15:19:05.622Z","pid":43921,"hostname":"cristiano","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T15:19:05.630Z","pid":43921,"hostname":"cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:05.631Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=p >> text=E-mail inválido in page."}
+{"level":30,"time":"2025-04-03T15:19:05.634Z","pid":43921,"hostname":"cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T15:19:05.638Z","pid":43921,"hostname":"cristiano","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T15:19:05.638Z","pid":43921,"hostname":"cristiano","msg":"Strict mode is enabled, find Locator with css=p >> text=E-mail inválido in page."}
+{"level":30,"time":"2025-04-03T15:19:05.665Z","pid":43921,"hostname":"cristiano","msg":"Retrieved text for element css=p >> text=E-mail inválido containing E-mail inválido"}
+{"level":30,"time":"2025-04-03T15:19:05.665Z","pid":43921,"hostname":"cristiano","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T15:19:05.668Z","pid":43921,"hostname":"cristiano","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T15:19:05.668Z","pid":43921,"hostname":"cristiano","Take screenshot with options: ":{"path":"/home/ferreira/Documentos/GitHub/test-pick-robot/logs/browser/screenshot/robotframework-browser-screenshot-5.png","fileType":"png","fullPage":true,"timeout":30000,"omitBackground":false}}
+{"level":30,"time":"2025-04-03T15:19:05.795Z","pid":43921,"hostname":"cristiano","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T15:19:05.798Z","pid":43921,"hostname":"cristiano","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-04-03T15:19:05.805Z","pid":43921,"hostname":"cristiano","msg":"Removed page=ae5a8d5e-690d-4585-a87d-f0ec31c8a2cc from context=f8310f4f-0669-4a57-918f-493e9e254b35 page stack"}
+{"level":30,"time":"2025-04-03T15:19:05.917Z","pid":43921,"hostname":"cristiano","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12202:15)
+    at PlaywrightServer.getActiveBrowser (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13094:59)
+    at PlaywrightServer.setTimeout (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13342:57)
+    at Object.onReceiveHalfClose (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-04-03T15:19:05.920Z","pid":43921,"hostname":"cristiano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T15:19:05.920Z","pid":43921,"hostname":"cristiano","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12202:15)
+    at PlaywrightServer.getActiveBrowser (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13094:59)
+    at PlaywrightServer.setTimeout (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13342:57)
+    at Object.onReceiveHalfClose (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (/home/ferreira/Documentos/GitHub/test-pick-robot/venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-04-03T15:19:05.924Z","pid":43921,"hostname":"cristiano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T15:19:05.924Z","pid":43921,"hostname":"cristiano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T15:19:05.955Z","pid":43921,"hostname":"cristiano","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-04-03T15:19:05.956Z","pid":43921,"hostname":"cristiano","msg":"End of node method closeAllBrowsers"}
